@@ -1,4 +1,4 @@
-public function getOrderTrackingCode()
+<?php public function getOrderTrackingCode()
 {
     $orderIds = $this->getOrderIds();
     if (!$orderIds) {
@@ -65,3 +65,4 @@ public function getOrderTrackingCode()
         return "<script>console.log('" . $response . "');</script>";
     }
 }
+?>
